@@ -21,3 +21,5 @@ class TemperatureCreate(TemperatureBase):
 
 class TemperatureUpdate(TemperatureBase):
     city_id: int
+# EOF
+

@@ -54,3 +54,4 @@ async def get_all_temperatures(
     temperatures_list = await db.execute(query)
 
     return temperatures_list.scalars().all()
+# EOF

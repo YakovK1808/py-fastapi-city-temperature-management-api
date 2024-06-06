@@ -12,3 +12,4 @@ class City(Base):
     additional_info = Column(String(255))
 
     temperatures = relationship("Temperature", back_populates="city")
+# EOF

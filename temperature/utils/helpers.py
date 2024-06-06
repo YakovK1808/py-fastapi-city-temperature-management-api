@@ -20,3 +20,5 @@ def update_temperature_instance(
 ) -> None:
     temperature_instance.temperature = weather_data
     temperature_instance.date_time = datetime.now()
+# EOF
+

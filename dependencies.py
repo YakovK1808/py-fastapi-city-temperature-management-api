@@ -10,3 +10,4 @@ async def get_db() -> AsyncSession:
         yield db
     finally:
         await db.close()
+# EOF
