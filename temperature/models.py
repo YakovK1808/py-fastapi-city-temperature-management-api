@@ -13,5 +13,4 @@ class Temperature(Base):
     temperature = Column(Float)
 
     city = relationship("City", back_populates="temperatures")
-# EOF
 

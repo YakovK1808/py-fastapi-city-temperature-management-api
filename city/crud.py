@@ -56,4 +56,3 @@ async def delete_city(db: AsyncSession, city_id: int) -> None:
     query = delete(models.City).where(models.City.id == city_id)
     await db.execute(query)
     await db.commit()
-# EOF

@@ -47,4 +47,4 @@ class WeatherService:
                     raise HTTPException(status_code=400, detail=str(e))
 
         return weather
-# EOF
+

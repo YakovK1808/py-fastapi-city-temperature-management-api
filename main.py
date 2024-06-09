@@ -13,5 +13,4 @@ app.include_router(temperature_router.router)
 @app.get("/")
 def index():
     return {"message": "Welcome to the City Temperature Management API"}
-# EOF
 

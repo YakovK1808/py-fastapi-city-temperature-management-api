@@ -19,5 +19,5 @@ async def read_temperatures(
     city_id: int | None = None, db: AsyncSession = Depends(get_db)
 ) -> Sequence[schemas.Temperature]:
     return await crud.get_all_temperatures(db=db, city_id=city_id)
-# EOF
+
 

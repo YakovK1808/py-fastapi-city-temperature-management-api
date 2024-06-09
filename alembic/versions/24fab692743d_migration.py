@@ -40,3 +40,4 @@ def downgrade() -> None:
     op.drop_index(op.f('ix_city_id'), table_name='city')
     op.drop_table('city')
     # ### end Alembic commands ###
+

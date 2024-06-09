@@ -61,4 +61,3 @@ async def delete_city(city_id: int, db: AsyncSession = Depends(get_db)) -> None:
         raise HTTPException(status_code=404, detail="City not found")
 
     await crud.delete_city(db=db, city_id=city_id)
-# EOF

@@ -19,4 +19,3 @@ class CityCreate(CityBase):
 
 class CityUpdate(CityBase):
     pass
-# EOF
