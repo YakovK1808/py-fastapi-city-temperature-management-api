@@ -6,10 +6,10 @@ To clone this project from GitHub, follow these steps:
 2. Navigate to the directory where you want to clone the project.
 3. Run the following command:
 ```shell
-git clone https://github.com/ArturPoltser/py-fastapi-city-temperature-management-api.git
+git clone https://github.com/YakovK1808/py-fastapi-city-temperature-management-api.git
 cd py-fastapi-city-temperature-management-api
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate  #for MacOS/Linux use: source vevn/bin/activate
 ```
 4. Install requirements:
 ```shell
@@ -25,6 +25,7 @@ alembic upgrade head
 ```
 ## Running the Server
 To run the server execute the following command:
+```shell
 ## Endpoints
 I recommend you to interact with API from ```/docs``` endpoint.
 ### City App
