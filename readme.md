@@ -25,7 +25,7 @@ alembic upgrade head
 ```
 ## Running the Server
 To run the server execute the following command:
-```shell
+hypercorn main:app --reload
 ## Endpoints
 I recommend you to interact with API from ```/docs``` endpoint.
 ### City App
